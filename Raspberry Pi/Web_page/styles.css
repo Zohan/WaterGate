@@ -1,0 +1,137 @@
+﻿/*
+	Styles for WaterGate web page
+	By Lourdes Morales
+*/
+
+
+html, body{
+	width: auto; 
+	height: auto;
+	font-family: 'Comfortaa', cursive;
+	margin-left: auto; 
+	margin-right: auto;
+	margin-top: auto;
+	background-color: #FFFFFF;
+    text-align: center;
+}
+
+h1{
+	font-size: 42pt;
+    color: #000033;
+}
+
+#pipe_status{
+
+    background-color: #000033;
+
+    color: #FFFFFF;
+
+    width: 100%;
+
+    height: auto;
+
+    padding: 20px 5px 10px 5px;
+
+    display: block;
+
+}
+
+h3{
+    font-size: 18pt;
+    font-weight: 300;
+}
+
+#status{
+    font-size: 54pt;
+    color: #9bfe83;
+    font-weight: 300;
+    margin-top: -1px;
+}
+
+
+h2{
+    font-size: 32pt;
+    margin-bottom: -2px;
+}
+
+
+.control{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+
+button{
+
+    width: 300px;
+
+    margin-top: 25px;
+
+    padding: 15px;
+
+	border: 2px solid #FFFFFF;
+
+    border-radius: 15px;
+
+    background-color: #000033;
+
+    color: #FFFFFF;
+    
+    text-align: center;
+
+    vertical-align: middle;
+
+    font-size: 18pt;
+
+    font-weight: 300;
+
+    -webkit-transition-duration: 0.4s; /* Safari */
+
+    transition-duration: 0.4s;
+
+	cursor: pointer;
+
+}
+
+button:hover{
+
+    background-color: #FFFFFF;
+
+    color: #000033;
+
+    border: 0.5px solid #000033;
+
+}
+
+
+/* Style edits for smaller screens on mobile devices */
+@media only screen and (max-width: 479px) {
+
+    h1{
+	    font-size: 28pt;
+    }
+    
+    #pipe_status{
+		padding: 1px;
+	}
+
+    h3{
+         font-size: 18pt;
+    }
+
+    #status{
+        font-size: 32pt;
+    }
+
+    h2{
+	    font-size: 24pt;
+    }
+
+    button{
+        font-size: 22pt;
+        margin-top: 10px;
+    	padding: 5px;
+    }
+
+}
